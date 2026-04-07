@@ -1,58 +1,94 @@
-# ViniciusBorges_BootcampDIO
+# 📊 Análise de Investimentos – Simulação de FIIs
 
-**Simulador de Investimentos em Fundos Imobiliários (FIIs)**  
-Planilha desenvolvida para auxiliar usuários a simular investimentos em FIIs, permitindo o cálculo de rendimento mensal, dividendos e patrimônio acumulado.
+## 📌 Contexto
 
-## 📈 Descrição
+Decisões de investimento exigem análise estruturada e comparação de cenários.
 
-Este projeto consiste em uma planilha elaborada no Excel para simular investimentos em Fundos Imobiliários (FIIs). A ferramenta possibilita ao usuário estimar o valor acumulado ao longo do tempo, os rendimentos mensais e os dividendos, a partir de parâmetros definidos manualmente.
+Sem uma visão clara, torna-se difícil entender:
 
-## ⚙️ Funcionalidades
+- Qual o impacto de aportes recorrentes ao longo do tempo  
+- Como diferentes fundos influenciam o retorno  
+- A evolução do patrimônio e dos dividendos  
+- A relação entre renda mensal e crescimento do capital  
 
-- Cálculo automático do valor total investido com base em aportes mensais
-- Seleção de fundos imobiliários a partir de uma lista extraída da B3
-- Simulação dos rendimentos mensais com base na taxa de dividendos do fundo escolhido
-- Estimativa mês a mês do patrimônio acumulado
-- Comparação entre diferentes cenários de investimento
+Este projeto simula a construção de uma ferramenta para análise de investimentos em Fundos Imobiliários (FIIs).
 
-## 🧠 Fórmulas e Recursos Utilizados
+---
 
-- **Fórmulas:** `SE`, `SOMA`, `MULT`, `ÍNDICE`, `PROCV`, `VF`, `TAXA`
-- **Recursos adicionais:**
-  - Validação de dados com listas suspensas
-  - Gráficos dinâmicos
-  - Organização por abas: *Investimento*, *Resultados* e *Dashboard*
+## 🎯 Objetivo
 
-## 📝 Como Utilizar
+Criar uma estrutura analítica para:
 
-1. Abra o arquivo `Simulador_FIIs.xlsx`
-2. Preencha os seguintes campos:
-   - Salário atual
-   - Rendimento mensal do CDI
-   - Percentual do salário destinado a investimentos
-   - Fundo imobiliário de interesse (selecionado por lista suspensa)
-3. Visualize os resultados automaticamente gerados na aba **Resultados**
+- Simular cenários de investimento ao longo do tempo  
+- Avaliar geração de renda passiva (dividendos)  
+- Projetar crescimento patrimonial  
+- Apoiar decisões de alocação de capital  
 
-## 📸 Capturas de Tela
+---
 
-#### 🧾 Simulações de Fundos
+## 🧠 Abordagem
 
-![Simulação ABCP](images/ABCP_planilha.png)  
-![Simulação BNFS](images/BNFS_planilha.png)
+A solução foi desenvolvida em Excel com foco em análise e simulação:
 
-#### 📊 Visualização das Taxas
+- Estruturação de inputs (aporte, taxa, escolha de ativos)  
+- Cálculo de evolução patrimonial  
+- Simulação de rendimentos mensais  
+- Comparação entre cenários de investimento  
+- Visualização dos resultados em dashboard  
 
-![Taxa ABCP](images/Taxa_ABCP.png)  
-![Taxa BNFS](images/Taxa_BNFS.png)  
-![Taxa CDI - Melhor Câmbio](images/Taxa_melhor_cambio.png)
+---
 
-## 🔗 Fontes de Dados
+## 📊 Principais análises
 
-- [Taxa CDI](https://www.melhorcambio.com/cdi)  
-- [Rendimentos dos FIIs](https://fiis.com.br/lista-de-fundos-imobiliarios/)  
-- [Fundos listados na B3](https://www.b3.com.br/pt_br/produtos-e-servicos/negociacao/renda-variavel/fundos-de-investimentos/fii/fiis-listados/)
+O modelo permite:
 
-## 👨‍💻 Autor
+- Simular aportes mensais e seu impacto no longo prazo  
+- Comparar diferentes fundos imobiliários  
+- Avaliar geração de dividendos ao longo do tempo  
+- Visualizar crescimento do patrimônio acumulado  
 
-Vinicius Borges  
-[LinkedIn: viniciusagborges](https://www.linkedin.com/in/viniciusagborges/)
+---
+
+## 💡 Valor gerado
+
+A estrutura permite:
+
+- Melhor compreensão do efeito de aportes recorrentes  
+- Apoio à decisão de investimento  
+- Comparação entre estratégias de alocação  
+- Visualização clara de resultados financeiros  
+
+---
+
+## ⚙️ Estrutura da solução
+
+- Aba de inputs com parâmetros do usuário  
+- Cálculos automatizados de retorno e patrimônio  
+- Dashboard com visualização dos resultados  
+- Simulação de diferentes cenários  
+
+---
+
+## 📈 Conclusão
+
+O projeto demonstra como uma estrutura simples pode apoiar decisões de investimento, transformando parâmetros em cenários e projeções.
+
+Mais do que uma planilha, o foco está em permitir **análise e tomada de decisão financeira**.
+
+---
+
+## 🛠️ Tecnologias utilizadas
+
+Excel  
+
+---
+
+## 👤 Sobre mim
+
+Atuo na interseção entre **finanças, dados e tecnologia**, com foco em análise e suporte à decisão.
+
+---
+
+## 📌 Observações
+
+Projeto desenvolvido para fins de portfólio.
